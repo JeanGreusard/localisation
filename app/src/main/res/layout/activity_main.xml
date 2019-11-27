@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LATITUDE:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/repLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="decimal"
+            android:text="ICI REPONSE LATITUDE"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LONGITUDE:"
+            android:numeric="decimal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/repLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ICI REPONSE LONGITUDE"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACQUISITION"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer"
+            android:textSize="23sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonAProposDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Propos De"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
